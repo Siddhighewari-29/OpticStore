@@ -1,0 +1,29 @@
+.listing-page {
+  min-height: 60vh;
+}
+
+.search-page-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 26px;
+  max-width: 520px;
+  flex-wrap: wrap;
+}
+
+.search-page-form .form-control {
+  flex: 1;
+  min-width: 220px;
+  background: var(--navy-800);
+  border-color: var(--navy-line);
+  color: var(--text-on-navy);
+}
+
+.search-page-form .form-control::placeholder {
+  color: var(--muted-on-navy);
+}
+
+.results-count {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}

@@ -1,0 +1,68 @@
+.order-success {
+  display: flex;
+  justify-content: center;
+}
+
+.order-success-card {
+  max-width: 520px;
+  width: 100%;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 46px 40px;
+  text-align: center;
+}
+
+.success-icon {
+  color: #10b981;
+  margin-bottom: 18px;
+}
+
+.order-success-card h1 {
+  font-size: 1.5rem;
+  color: var(--navy-950);
+  margin-bottom: 10px;
+}
+
+.order-success-card > p {
+  margin-bottom: 26px;
+}
+
+.order-id-box {
+  background: #eef3f8;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.order-id-box span {
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.order-id-box strong {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: #0891a8;
+  letter-spacing: 0.02em;
+}
+
+.order-summary-mini {
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.order-success-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

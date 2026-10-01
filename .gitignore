@@ -1,0 +1,33 @@
+# =========================
+# Frontend - React/Vite
+# =========================
+opticstore/node_modules/
+opticstore/dist/
+opticstore/.env
+opticstore/.env.*
+
+# =========================
+# Backend - Spring Boot
+# =========================
+Back_End_Optics/target/
+Back_End_Optics/.env
+Back_End_Optics/.env.*
+
+# =========================
+# IDE / Eclipse
+# =========================
+.metadata/
+.idea/
+*.iml
+.vscode/
+
+# Eclipse generated files
+.classpath
+.project
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
